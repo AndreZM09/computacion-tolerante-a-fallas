@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Deportes</title>
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Deportes XYZ</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Carousel de imágenes destacadas -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x300" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Sección de productos -->
+    <div class="container mt-5">
+        <h2>Productos destacados</h2>
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pelota de Fútbol</h5>
+                        <p class="card-text">Pelota oficial de fútbol tamaño 5.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tenis para correr</h5>
+                        <p class="card-text">Zapatillas ligeras y cómodas para correr.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/150" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bicicleta montañera</h5>
+                        <p class="card-text">Bicicleta resistente para todo terreno.</p>
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="mt-5 py-3 bg-dark text-white text-center">
+        Deportes XYZ - Todos los derechos reservados © 2023
+    </footer>
+
+    <!-- Scripts de Bootstrap y dependencias -->
+    <script
