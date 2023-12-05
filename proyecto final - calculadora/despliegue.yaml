@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: calculadora-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: calculadora-app
+  template:
+    metadata:
+      labels:
+        app: calculadora-app
+    spec:
+      containers:
+      - name: calculadora-app
+        image: calculadora-calculator-app:latest
+        ports:
+        - containerPort: 8080

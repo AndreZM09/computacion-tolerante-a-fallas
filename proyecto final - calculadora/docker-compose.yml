@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  calculator-app:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/usr/src/app/frontend
+      - ./backend:/usr/src/app/backend
